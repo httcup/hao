@@ -170,29 +170,65 @@
                 </ul>
             </div>
         </div>
-        <div class="main-content">
-            <nav class="navbar user-info-navbar" role="navigation">
-                <!-- User Info, Notifications and Menu Bar -->
-                <!-- Left links for user info navbar -->
-                <ul class="user-info-menu left-links list-inline list-unstyled">
-                    <!--<li class="hidden-sm hidden-xs">-->
-                        <!--<a href="#" data-toggle="sidebar">-->
-                            <!--<i class="fa-bars"></i>-->
-                        <!--</a>-->
-                    <!--</li>-->
-                    <li class="dropdown hover-line language-switcher">
-                        <div class="suiShiDaoHang">
-                            <form action="https://www.baidu.com/s" target="_blank" class="search" method="get">
-                                <ul>
-                                    <li><input type="text" class="content"  name="word" size="30" baidusug="1" placeholder="随时百度一下"
-                                               autocomplete="off"></li>
-                                    <li><input type="submit" class="button" value="百度一下"></li>
-                                </ul>
-                            </form>
+        <div class="search-group group-a s-current">
+                            <span class="type-text text-muted">常用</span>
+                            <ul class="search-type">
+                                <li>
+                                    <input checked="checked" hidden type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下">
+                                    <label for="type-baidu">
+                                        <span class="text-muted">百度</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="微软Bing搜索">
+                                    <label for="type-bing1">
+                                        <span class="text-muted">Bing</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-bing2" value="https://www.wuzhuiso.com/s?q=" data-placeholder="无追索">
+                                    <label for="type-bing2">
+                                        <span class="text-muted">无追搜</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌两下">
+                                    <label for="type-google">
+                                        <span class="text-muted">Google</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-taobao" value="https://so.toutiao.com/search?keyword=" data-placeholder="头条搜索">
+                                    <label for="type-taobao">
+                                        <span class="text-muted">头条搜索</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-bing3" value="https://so.m.sm.cn/s?q=" data-placeholder="神马搜索引擎">
+                                    <label for="type-bing3">
+                                        <span class="text-muted">神马搜索</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-bing4" value="https://www.douyin.com/search/" data-placeholder="抖音搜索引擎">
+                                    <label for="type-bing4">
+                                        <span class="text-muted">抖音搜索</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-bing5" value="/?post_type=sites&s=" data-placeholder="站内网址搜索">
+                                    <label for="type-bing5">
+                                        <span class="text-muted">站内搜索</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input hidden type="radio" name="type" id="type-bing6" value="https://yandex.com/search/?text=" data-placeholder="来自俄罗斯的搜索引擎">
+                                    <label for="type-bing6">
+                                        <span class="text-muted">Yandex</span>
+                                    </label>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                </ul>
-            </nav>
             <!-- AI Chat -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="AI Chat"></i>AI Chat</h4>
             <div class="row">
