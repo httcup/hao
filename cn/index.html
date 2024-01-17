@@ -170,16 +170,41 @@
                 </ul>
             </div>
         </div>
-        <div class="search-group group-a"><span class="type-text">搜索</span>
-            <ul class="search-type">
-                <li><input checked hidden type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道"><label for="type-baidu"><span style="color:#2529d8">百度</span></label></li>
-                <li><input hidden type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="Don't be evil &#x1F47E;"><label for="type-google"><span style="color:#4285f4">G</span><span style="color:#ea4335">o</span><span style="color:#fbbc05">o</span><span style="color:#4285f4">g</span><span style="color:#34a853">l</span><span style="color:#ea4335">e</span></label></li>
-                <li><input hidden type="radio" name="type" id="type-github" value="https://github.com/search?q=" data-placeholder="How people build software"><label for="type-github"><span style="color:#333">Github</span></label></li>
-                <li><input hidden type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="Bing is for doing"><label for="type-bing1"><span style="color:#0C8484">Bing</span></label></li>
-                <li><input hidden type="radio" name="type" id="type-mj" value="https://mijisou.com/?q=" data-placeholder=" 不追踪你的搜索引擎"><label for="type-mj"><span style="color:#464646">秘迹</span></label></li>
-                <li><input hidden type="radio" name="type" id="type-ddg" value="https://duckduckgo.com/?q=" data-placeholder="隐私保护，化繁为简 &#x1F47E;"><label for="type-ddg"><span style="color:#DE5833">DDG</span></label></li>
-            </ul>
-        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="dropdown hover-line language-switcher">
+                        <a href="../cn/index.html" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
+                        </a>
+                        <ul class="dropdown-menu languages">
+                            <li>
+                                <a href="../cn/index.html">
+                                    <img src="../assets/images/flags/flag-us.png" alt="flag-us" /> English
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="../cn/index.html">
+                                    <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="user-info-menu right-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="https://httcup.gitee.io/hh/" target="_blank">
+                            <i class="fa-github"></i> 主页版
+                        </a>
+                    </li>
+                </ul>
             <!-- AI Chat -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="AI Chat"></i>AI Chat</h4>
             <div class="row">
